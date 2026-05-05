@@ -1,0 +1,20 @@
+ssh  i "kp scdwarehouse us.pem" ec2 user@ec2 100 53 6 98.compute 1.amazonaws.com
+
+ssh  i "kp scd warehousing" ec2 100 53 6 98.compute 1.amazonaws.com  L 2081:localhost:2041  L 4888:localhost:4888  L 2080:localhost:2080  L 8050:localhost:8050  L 4141:localhost:4141
+
+
+scp  r  i "kp scd warehousing" code\docker_exp ec2 user@ec2 44 203 59 228.compute 1.amazonaws.com:/home/ec2 user/docker_exp
+
+
+
+
+- `sudo yum update -y`
+- `sudo yum install docker`
+- `sudo yum install -y libxcrypt-compat`
+- `sudo curl -L "https://github.com/docker/compose/releases/download/1.29.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose`
+- `sudo chmod +x /usr/local/bin/docker-compose`
+- `sudo gpasswd -a $USER docker`
+- `newgrp docker`
+- Start Docker: `sudo systemctl start docker`
+---  docker-compose up -d
+- Stop Docker: `sudo systemctl stop docker`

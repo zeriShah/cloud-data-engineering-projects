@@ -1,0 +1,11 @@
+docs
+
+# Security - Private keys and credentials
+*.pem
+*.key
+*.p12
+*.pfx
+*credentials*
+*secrets*
+.aws/
+*.config
