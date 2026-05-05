@@ -14,6 +14,8 @@ Build an automated data pipeline that:
 
 ## Architecture
 
+![Netflix ETL Architecture](./netflix.png)
+
 ```
 ┌─────────────┐
 │  TVMaze API │

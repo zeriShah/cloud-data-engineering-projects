@@ -15,6 +15,8 @@ Build a production-grade data pipeline that:
 
 ## Architecture
 
+![Ecommerce Pipeline Architecture](./e%20commrece%20pipline.png)
+
 ```
 ┌─────────────────┐
 │  Data Sources   │

@@ -15,6 +15,8 @@ Build a production-ready ETL pipeline that:
 
 ## Architecture
 
+![Weather ETL Architecture](./weather-airflow-docker-etl/architecture.png)
+
 ```
 ┌──────────────────┐
 │  Open-Meteo API  │ (Free weather data)

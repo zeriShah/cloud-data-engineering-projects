@@ -15,6 +15,8 @@ Build an end-to-end analytics solution that:
 
 ## Architecture
 
+![End-to-End Analytics Architecture](./end%20to%20end%20analytical.png)
+
 ```
 ┌──────────────┐
 │  Kaggle API  │

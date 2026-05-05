@@ -14,6 +14,8 @@ Build an automated web scraping solution that:
 
 ## Architecture
 
+![PakWheels Scraping Architecture](./pak%20wheels.png)
+
 ```
 ┌──────────────┐
 │  PakWheels   │
